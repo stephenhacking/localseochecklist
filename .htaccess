@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^localseochecklist\.org
+RewriteRule (.*) http://localseochecklist.org/$1 [R=301,L]
